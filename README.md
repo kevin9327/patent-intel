@@ -2,6 +2,8 @@
 
 **Ask patent questions in plain language. Get measured answers.**
 
+![patent-intel demo](assets/demo.gif)
+
 A Claude Code skill + zero-dependency CLI for patent research: counts,
 leaderboards, trends, portfolios, and full landscape reports over worldwide
 patent publications — **no API key, no pip install** (Python 3.8+ stdlib only).
