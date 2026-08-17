@@ -465,8 +465,13 @@ def op_domains(args) -> dict:
     }
 
 
-def build_domain_report(slug: str, fresh: bool = False, trend_from: int = 2019) -> dict:
-    """Collect all data for one domain (several network calls, cached)."""
+def build_domain_report(slug: str, fresh: bool = False, trend_from: int = 2019,
+                        include_trend: bool = True) -> dict:
+    """Collect all data for one domain (several network calls, cached).
+
+    include_trend=False keeps the request count low (~5 instead of ~13) —
+    datacenter IPs get roughly a 10-request budget before Google blocks them.
+    """
     domain = DOMAINS[slug]
     flagship = domain["queries"][0]
     this_year = date.today().year
@@ -475,13 +480,16 @@ def build_domain_report(slug: str, fresh: bool = False, trend_from: int = 2019) 
     for q in domain["queries"]:
         volumes.append({"query": q, "total": parse_total(fetch(build_inner(query=q), fresh=fresh))})
 
-    lb_payload = fetch(build_inner(query=flagship), fresh=fresh)
+    # same inner query as the flagship volume fetch -> served from cache
+    lb_payload = fetch(build_inner(query=flagship))
     leaderboard = parse_assignee_facet(lb_payload)[:15]
 
-    series = []
-    for y in range(trend_from, this_year + 1):
-        inner = build_inner(query=flagship, after=str(y), before=str(y + 1))
-        series.append({"year": y, "count": parse_total(fetch(inner, fresh=fresh))})
+    series = None
+    if include_trend:
+        series = []
+        for y in range(trend_from, this_year + 1):
+            inner = build_inner(query=flagship, after=str(y), before=str(y + 1))
+            series.append({"year": y, "count": parse_total(fetch(inner, fresh=fresh))})
 
     recent_payload = fetch(build_inner(query=flagship, num=10, sort="new"), fresh=fresh)
     recent = parse_results(recent_payload)[:10]
@@ -521,15 +529,16 @@ def render_domain_report_md(data: dict) -> str:
     for i, row in enumerate(data["top_filers_sampled"], 1):
         lines.append("| %d | %s | %d |" % (i, row["assignee"], row["count"]))
     lines.append("")
-    lines.append("## Filing trend — `%s`" % data["flagship_query"])
-    lines.append("")
-    lines.append("| Year | Filings | |")
-    lines.append("|---|---|---|")
-    peak = max((r["count"] for r in data["filing_trend"]), default=1) or 1
-    for r in data["filing_trend"]:
-        bar = "█" * max(1, round(r["count"] / peak * 30)) if r["count"] else ""
-        lines.append("| %d | %s | %s |" % (r["year"], format(r["count"], ","), bar))
-    lines.append("")
+    if data.get("filing_trend"):
+        lines.append("## Filing trend — `%s`" % data["flagship_query"])
+        lines.append("")
+        lines.append("| Year | Filings | |")
+        lines.append("|---|---|---|")
+        peak = max((r["count"] for r in data["filing_trend"]), default=1) or 1
+        for r in data["filing_trend"]:
+            bar = "█" * max(1, round(r["count"] / peak * 30)) if r["count"] else ""
+            lines.append("| %d | %s | %s |" % (r["year"], format(r["count"], ","), bar))
+        lines.append("")
     lines.append("## Fresh filings")
     lines.append("")
     for r in data["fresh_filings"]:
@@ -560,9 +569,12 @@ def op_report(args) -> dict:
 
 
 def op_snapshot(args) -> dict:
-    """Write dated snapshot JSONs + a flagship report into a repo layout.
+    """Write dated snapshot JSONs + reports into a repo layout.
 
     Used by the weekly GitHub Action to make this repo self-accumulating.
+    Degrades gracefully: when the source rate-limits mid-run, everything
+    collected so far is still written and the run reports status "partial"
+    (exit code stays 0 — a partial snapshot is still an accumulation).
     """
     repo = Path(args.repo)
     today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
@@ -573,9 +585,15 @@ def op_snapshot(args) -> dict:
 
     slugs = [s.strip() for s in args.domains.split(",") if s.strip()]
     written = []
+    status, note = "complete", ""
 
     for slug in slugs:
-        data = build_domain_report(slug, fresh=args.fresh)
+        try:
+            data = build_domain_report(slug, fresh=args.fresh,
+                                       include_trend=not args.lite)
+        except RateLimitedError as e:
+            status, note = "partial", str(e)
+            break
         out = snap_dir / ("domain-%s.json" % slug)
         out.write_text(json.dumps(data, ensure_ascii=False, indent=1), encoding="utf-8")
         written.append(str(out))
@@ -584,16 +602,29 @@ def op_snapshot(args) -> dict:
         written.append(str(md_path))
 
     watchlist = []
-    for company in WATCHLIST:
-        total = parse_total(fetch(build_inner(assignee=company), fresh=args.fresh))
-        watchlist.append({"assignee": company, "total_publications": total})
-    wl_path = snap_dir / "watchlist.json"
-    wl_path.write_text(
-        json.dumps({"generated": today, "watchlist": watchlist}, ensure_ascii=False, indent=1),
-        encoding="utf-8",
-    )
-    written.append(str(wl_path))
-    return {"snapshot_date": today, "written": written}
+    if status == "complete":
+        for company in WATCHLIST[: args.watchlist_top]:
+            try:
+                total = parse_total(fetch(build_inner(assignee=company), fresh=args.fresh))
+            except RateLimitedError as e:
+                status, note = "partial", str(e)
+                break
+            watchlist.append({"assignee": company, "total_publications": total})
+    if watchlist:
+        wl_path = snap_dir / "watchlist.json"
+        wl_path.write_text(
+            json.dumps({"generated": today, "watchlist": watchlist},
+                       ensure_ascii=False, indent=1),
+            encoding="utf-8",
+        )
+        written.append(str(wl_path))
+
+    run_info = {"snapshot_date": today, "status": status, "note": note,
+                "written": written}
+    if written:
+        (snap_dir / "run.json").write_text(
+            json.dumps(run_info, ensure_ascii=False, indent=1), encoding="utf-8")
+    return run_info
 
 
 # --------------------------------------------------------------------------
@@ -748,6 +779,10 @@ def main(argv=None) -> int:
     p = sub.add_parser("snapshot", help="write dated snapshot data+reports into a repo")
     p.add_argument("--repo", required=True)
     p.add_argument("--domains", default="agentic-ai")
+    p.add_argument("--lite", action="store_true",
+                   help="skip trends (~5 requests/domain instead of ~13)")
+    p.add_argument("--watchlist-top", type=int, default=len(WATCHLIST),
+                   help="only the first N watchlist companies")
     p.add_argument("--fresh", action="store_true")
     p.add_argument("--json", action="store_true")
     p = sub.add_parser("selftest", help="offline parser checks (+ --live smoke test)")

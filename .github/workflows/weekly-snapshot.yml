@@ -1,9 +1,12 @@
 # Weekly patent landscape snapshot.
 #
-# Experimental: the zero-key backend may refuse datacenter IPs (HTTP 503).
-# A failed run is harmless — that week's snapshot is simply skipped, and
-# snapshots can always be collected locally:
-#   python plugins/patent-intel/skills/patent-intel/scripts/patent_search.py snapshot --repo .
+# Datacenter IPs get roughly a 10-request budget before Google blocks them
+# (measured 2026-08-18: ~10 requests over 60s at 6s spacing, then HTTP 503),
+# so each weekly run collects ONE rotating domain in lite mode plus the top-5
+# watchlist (~10 requests total), and the snapshot command degrades gracefully
+# to a partial snapshot if the budget still runs out. Full-depth snapshots can
+# always be collected locally:
+#   python plugins/patent-intel/skills/patent-intel/scripts/patent_search.py snapshot --repo . --domains agentic-ai
 name: weekly-snapshot
 
 on:
@@ -18,16 +21,18 @@ jobs:
   snapshot:
     runs-on: ubuntu-latest
     env:
-      PATENT_INTEL_DELAY: "6"
+      PATENT_INTEL_DELAY: "8"
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - name: Collect snapshot
-        run: >
-          python plugins/patent-intel/skills/patent-intel/scripts/patent_search.py
-          snapshot --repo . --domains agentic-ai,llm-core,rag,ai-inference --fresh
+      - name: Collect snapshot (one rotating domain, lite)
+        run: |
+          DOMAIN=$(python -c "import datetime; d=['agentic-ai','llm-core','rag','ai-inference']; print(d[datetime.date.today().isocalendar()[1] % 4])")
+          echo "domain of the week: $DOMAIN"
+          python plugins/patent-intel/skills/patent-intel/scripts/patent_search.py \
+            snapshot --repo . --domains "$DOMAIN" --lite --watchlist-top 5 --fresh --json
       - name: Commit snapshot
         run: |
           git config user.name "github-actions[bot]"
