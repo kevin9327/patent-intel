@@ -1,0 +1,12 @@
+{
+  "name": "patent-intel",
+  "owner": { "name": "kevin9327", "url": "https://github.com/kevin9327" },
+  "plugins": [
+    {
+      "name": "patent-intel",
+      "source": "./plugins/patent-intel",
+      "description": "Patent research & landscape analysis over public patent data — zero API keys",
+      "version": "0.1.0"
+    }
+  ]
+}

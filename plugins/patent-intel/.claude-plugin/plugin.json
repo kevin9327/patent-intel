@@ -1,0 +1,6 @@
+{
+  "name": "patent-intel",
+  "version": "0.1.0",
+  "description": "Patent research & landscape analysis over public patent data — zero API keys",
+  "author": { "name": "kevin9327" }
+}
