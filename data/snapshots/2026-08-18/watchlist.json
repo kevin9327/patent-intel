@@ -1,0 +1,12 @@
+{
+ "generated": "2026-08-18",
+ "collection": "measured live via Google Patents public search during initial build; 5 of 12 watchlist companies collected this run",
+ "note": "counts are total patent publications under that assignee search string (all fields, all offices)",
+ "watchlist": [
+  {"assignee": "OpenAI", "total_publications": 85},
+  {"assignee": "Anthropic", "total_publications": 19},
+  {"assignee": "DeepMind Technologies", "total_publications": 2504},
+  {"assignee": "NAVER", "total_publications": 11232},
+  {"assignee": "NVIDIA", "total_publications": 33226}
+ ]
+}

@@ -1,0 +1,23 @@
+{
+ "generated": "2026-08-18",
+ "collection": "measured live via Google Patents public search during initial build (partial: filing trend not collected this run; automated full snapshots begin with the weekly workflow)",
+ "domain": "agentic-ai",
+ "name": "Agentic AI",
+ "description": "AI agents, tool use, orchestration, multi-agent systems built on LLMs.",
+ "flagship_query": "\"agentic AI\"",
+ "query_volumes": [
+  {"query": "\"agentic AI\"", "total": 207}
+ ],
+ "top_filers_sampled": [
+  {"assignee": "Salesforce, Inc.", "count": 57},
+  {"assignee": "Stats Llc", "count": 43},
+  {"assignee": "Eric L Pankey", "count": 38},
+  {"assignee": "Citibank, N.A.", "count": 28},
+  {"assignee": "Aieconomy Llc", "count": 19},
+  {"assignee": "Evity Technologies, Inc.", "count": 19},
+  {"assignee": "Hytto Pte. Ltd", "count": 19},
+  {"assignee": "Oracle International Corporation", "count": 19},
+  {"assignee": "Onesource Solutions International, Inc.", "count": 19}
+ ],
+ "filing_trend": null
+}

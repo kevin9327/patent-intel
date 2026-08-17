@@ -1,0 +1,21 @@
+{
+ "generated": "2026-08-18",
+ "collection": "measured live via Google Patents public search during initial build (partial: volumes/leaderboard not collected this run)",
+ "domain": "llm-core",
+ "name": "LLM Core",
+ "description": "Large language model architecture, training, and fine-tuning.",
+ "flagship_query": "\"large language model\"",
+ "query_volumes": null,
+ "top_filers_sampled": null,
+ "filing_trend": {
+  "query": "\"large language model\"",
+  "date_field": "filing",
+  "note": "recent years are undercounted: applications publish ~18 months after filing",
+  "series": [
+   {"year": 2022, "count": 182},
+   {"year": 2023, "count": 16578},
+   {"year": 2024, "count": 57022},
+   {"year": 2025, "count": 64201}
+  ]
+ }
+}

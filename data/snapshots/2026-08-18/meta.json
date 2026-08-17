@@ -1,0 +1,10 @@
+{
+ "snapshot_date": "2026-08-18",
+ "source": "Google Patents public search (patents.google.com)",
+ "method": "manual measurements during initial repo build, collected live on 2026-08-18; from the next snapshot on, data is collected by scripts/patent_search.py `snapshot` (weekly workflow or manual runs)",
+ "caveats": [
+  "counts are patent publications, not granted patents or deduplicated families",
+  "assignee leaderboard facets are sampled by the source; treat as relative shares",
+  "filings from the last ~18 months are undercounted due to publication lag"
+ ]
+}
