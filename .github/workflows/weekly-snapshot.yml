@@ -1,0 +1,37 @@
+# Weekly patent landscape snapshot.
+#
+# Experimental: the zero-key backend may refuse datacenter IPs (HTTP 503).
+# A failed run is harmless — that week's snapshot is simply skipped, and
+# snapshots can always be collected locally:
+#   python plugins/patent-intel/skills/patent-intel/scripts/patent_search.py snapshot --repo .
+name: weekly-snapshot
+
+on:
+  schedule:
+    - cron: "17 3 * * 1"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  snapshot:
+    runs-on: ubuntu-latest
+    env:
+      PATENT_INTEL_DELAY: "6"
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Collect snapshot
+        run: >
+          python plugins/patent-intel/skills/patent-intel/scripts/patent_search.py
+          snapshot --repo . --domains agentic-ai,llm-core,rag,ai-inference --fresh
+      - name: Commit snapshot
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data reports
+          git diff --cached --quiet || git commit -m "data: weekly snapshot $(date -u +%F)"
+          git push
