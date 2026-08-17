@@ -1,0 +1,196 @@
+{
+ "generated": "2026-08-17",
+ "domain": "rag",
+ "name": "Retrieval-Augmented Generation",
+ "description": "RAG pipelines, vector search, embeddings, grounding.",
+ "flagship_query": "\"retrieval augmented generation\"",
+ "query_volumes": [
+  {
+   "query": "\"retrieval augmented generation\"",
+   "total": 15932
+  },
+  {
+   "query": "\"vector database\" embedding",
+   "total": 12416
+  },
+  {
+   "query": "\"semantic search\" \"language model\"",
+   "total": 3831
+  }
+ ],
+ "top_filers_sampled": [
+  {
+   "assignee": "Nvidia Corporation",
+   "count": 31
+  },
+  {
+   "assignee": "Salesforce, Inc.",
+   "count": 30
+  },
+  {
+   "assignee": "Microsoft Technology Licensing, Llc",
+   "count": 23
+  },
+  {
+   "assignee": "Oracle International Corporation",
+   "count": 22
+  },
+  {
+   "assignee": "Dell Products L.P.",
+   "count": 22
+  },
+  {
+   "assignee": "The Toronto-Dominion Bank",
+   "count": 22
+  },
+  {
+   "assignee": "Intuit Inc.",
+   "count": 21
+  },
+  {
+   "assignee": "THIA ST Co.",
+   "count": 14
+  },
+  {
+   "assignee": "Qomplx Llc",
+   "count": 13
+  },
+  {
+   "assignee": "Amazon Technologies, Inc.",
+   "count": 11
+  },
+  {
+   "assignee": "Citibank, N.A.",
+   "count": 11
+  },
+  {
+   "assignee": "Microsoft Technology Licensing, LLC",
+   "count": 9
+  },
+  {
+   "assignee": "Vijay Madisetti",
+   "count": 9
+  },
+  {
+   "assignee": "中国电信股份有限公司",
+   "count": 9
+  },
+  {
+   "assignee": "ソフトバンクグループ株式会社",
+   "count": 8
+  }
+ ],
+ "filing_trend": null,
+ "fresh_filings": [
+  {
+   "publication_number": "CN121981281A",
+   "title": "Glass fiber field retrieval enhancement generation method based on large model",
+   "assignee": "南京玻璃纤维研究设计院有限公司",
+   "inventor": "赵明",
+   "filing_date": "2026-04-09",
+   "publication_date": "2026-05-05",
+   "priority_date": "",
+   "snippet": "The technology of search enhancement generation (RETRIEVAL-Augmented Generation, RAG) dynamically searches an external knowledge base in the generation process, and fuses the searched related information into the model input, so that the knowledge limitation problem of a large language model is …",
+   "link": "https://patents.google.com/patent/CN121981281A/en"
+  },
+  {
+   "publication_number": "CN121979574A",
+   "title": "AMI master station-oriented data processing method, device, equipment and …",
+   "assignee": "深圳市思达仪表有限公司",
+   "inventor": "詹赛滔",
+   "filing_date": "2026-04-09",
+   "publication_date": "2026-05-05",
+   "priority_date": "",
+   "snippet": "The preset knowledge base can be a concrete implementation of a retrieval enhancement generation (RETRIEVAL-Augmented Generation, RAG) technology, a storage protocol specification base, an industry specification base, a manufacturer version adaptation base, a historical treatment case base, a …",
+   "link": "https://patents.google.com/patent/CN121979574A/en"
+  },
+  {
+   "publication_number": "CN121998104A",
+   "title": "Multi-hop reasoning method and device based on occlusion knowledge activation",
+   "assignee": "启元实验室",
+   "inventor": "马少楠",
+   "filing_date": "2026-04-09",
+   "publication_date": "2026-05-08",
+   "priority_date": "",
+   "snippet": "…  intensive, time efficient or long tail entities, it is easy to generate \"illusion\", i.e. to generate content that lacks a real basis or is inconsistent with the real world. To solve this problem, search enhancement generation (RETRIEVAL-Augmented Generation, RAG) techniques have been developed. The …",
+   "link": "https://patents.google.com/patent/CN121998104A/en"
+  },
+  {
+   "publication_number": "CN121980015A",
+   "title": "Retrieval enhancement evaluation method and device based on multi-round …",
+   "assignee": "湘财证券股份有限公司",
+   "inventor": "邓纲",
+   "filing_date": "2026-04-08",
+   "publication_date": "2026-05-05",
+   "priority_date": "",
+   "snippet": "Retrieval enhancement generation (RETRIEVAL-Augmented Generation, RAG) is a technique that combines information retrieval techniques with a generative model to enhance the accuracy and reliability of the generative artificial intelligence model by utilizing information from specific related data …",
+   "link": "https://patents.google.com/patent/CN121980015A/en"
+  },
+  {
+   "publication_number": "CN121980055A",
+   "title": "Method, device, equipment and medium for structured extraction of industrial …",
+   "assignee": "北京神州数码云计算有限公司",
+   "inventor": "仉佃星",
+   "filing_date": "2026-04-08",
+   "publication_date": "2026-05-05",
+   "priority_date": "",
+   "snippet": "This application discloses a method, apparatus, equipment, and medium for structured extraction of industrial drawings, relating to the field of drawing processing technology. The method includes: acquiring an industrial drawing file; parsing the industrial drawing file to obtain candidate fields …",
+   "link": "https://patents.google.com/patent/CN121980055A/en"
+  },
+  {
+   "publication_number": "CN121989862A",
+   "title": "Low power consumption monitoring and detection methods and circuits",
+   "assignee": "万通智控科技股份有限公司",
+   "inventor": "孙凯瑾",
+   "filing_date": "2026-04-08",
+   "publication_date": "2026-05-08",
+   "priority_date": "",
+   "snippet": "RAG is RETRIEVAL-Augmented Generation (search enhancement generation), wherein the AI-SOC chip deployed locally has a RAG mechanism, and can be compared with pictures searched by a local knowledge base to judge the existence of objects after being analyzed and identified by combining pictures shot …",
+   "link": "https://patents.google.com/patent/CN121989862A/en"
+  },
+  {
+   "publication_number": "CN121981237A",
+   "title": "Knowledge question-answering dynamic map construction method, knowledge …",
+   "assignee": "上海路明星光智能科技有限公司",
+   "inventor": "姬有",
+   "filing_date": "2026-04-08",
+   "publication_date": "2026-05-05",
+   "priority_date": "",
+   "snippet": "The application provides a knowledge question-answering dynamic map construction method, a knowledge question-answering method, a storage medium, a program product and electronic equipment, wherein the knowledge question-answering dynamic map construction method comprises the steps of collecting …",
+   "link": "https://patents.google.com/patent/CN121981237A/en"
+  },
+  {
+   "publication_number": "CN121983217A",
+   "title": "Knowledge-enhanced reasoning chain verification-based patient information …",
+   "assignee": "华院计算技术(上海)股份有限公司",
+   "inventor": "张泰宇",
+   "filing_date": "2026-04-07",
+   "publication_date": "2026-05-05",
+   "priority_date": "",
+   "snippet": "Aiming at the defects existing in the prior art, the invention provides a patient information processing method based on knowledge-enhanced inference chain verification, in particular to a patient information processing method based on inference chain, retrieval enhancement generation (RETRIEVAL- …",
+   "link": "https://patents.google.com/patent/CN121983217A/en"
+  },
+  {
+   "publication_number": "CN121996222A",
+   "title": "An AI-driven method for automated code generation in supply chain software",
+   "assignee": "宏图智能物流股份有限公司",
+   "inventor": "梁李",
+   "filing_date": "2026-04-07",
+   "publication_date": "2026-05-08",
+   "priority_date": "",
+   "snippet": "As the optimization of the embodiment, the service development assisted by the AI agent is based on the generated basic code prototype, and the accurate generation and optimization of the service logic code are realized through the AI agent, and the three key points of RAG (RETRIEVAL-Augmented …",
+   "link": "https://patents.google.com/patent/CN121996222A/en"
+  },
+  {
+   "publication_number": "CN121979494A",
+   "title": "IVCPS demand generation method and device, electronic equipment and storage …",
+   "assignee": "交通运输部公路科学研究所",
+   "inventor": "李春阳",
+   "filing_date": "2026-04-07",
+   "publication_date": "2026-05-05",
+   "priority_date": "",
+   "snippet": "The embodiment of the application provides a method, a device, electronic equipment and a storage medium for generating requirements of IVCPS, wherein the method comprises the steps of establishing ontology models of different elements, generating corresponding knowledge maps according to the …",
+   "link": "https://patents.google.com/patent/CN121979494A/en"
+  }
+ ]
+}

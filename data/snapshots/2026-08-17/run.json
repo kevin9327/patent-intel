@@ -1,0 +1,10 @@
+{
+ "snapshot_date": "2026-08-17",
+ "status": "partial",
+ "note": "Google Patents temporarily blocked this client (HTTP 503). This happens after bursts of queries. Wait 10-30 minutes, rely on cached results, or raise PATENT_INTEL_DELAY (current: 8.0s). For bulk work use official APIs — see references/sources.md.",
+ "written": [
+  "data/snapshots/2026-08-17/domain-rag.json",
+  "reports/2026-08-17-rag.md",
+  "data/snapshots/2026-08-17/watchlist.json"
+ ]
+}
