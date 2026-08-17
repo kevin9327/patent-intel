@@ -1,0 +1,69 @@
+# On-demand yearly time-series collection.
+#
+# Each Actions runner gets a fresh IP with a ~10-request budget on the
+# zero-key backend, and one trend (8 years) fits inside it — so dispatching
+# several of these in parallel is how bigger datasets get collected without
+# any API key. Results are committed under data/timeseries/.
+name: collect-trend
+
+on:
+  workflow_dispatch:
+    inputs:
+      query:
+        description: "search query (leave empty for assignee-only)"
+        required: false
+        default: ""
+      assignee:
+        description: "assignee (company name)"
+        required: false
+        default: ""
+      slug:
+        description: "output name -> data/timeseries/<slug>.json"
+        required: true
+      from:
+        description: "first year"
+        required: true
+        default: "2019"
+      to:
+        description: "last year"
+        required: true
+        default: "2026"
+
+permissions:
+  contents: write
+
+jobs:
+  trend:
+    runs-on: ubuntu-latest
+    env:
+      PATENT_INTEL_DELAY: "6"
+      Q: ${{ inputs.query }}
+      A: ${{ inputs.assignee }}
+      SLUG: ${{ inputs.slug }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Collect trend
+        run: |
+          mkdir -p data/timeseries
+          ARGS=()
+          [ -n "$Q" ] && ARGS+=("$Q")
+          [ -n "$A" ] && ARGS+=(--assignee "$A")
+          python plugins/patent-intel/skills/patent-intel/scripts/patent_search.py \
+            trend "${ARGS[@]}" --from "${{ inputs.from }}" --to "${{ inputs.to }}" --json \
+            > "data/timeseries/${SLUG}.json"
+          cat "data/timeseries/${SLUG}.json"
+      - name: Commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/timeseries
+          git commit -m "data: trend series ${SLUG}"
+          n=0
+          until git push; do
+            n=$((n+1)); [ "$n" -ge 6 ] && exit 1
+            git pull --rebase
+            sleep $((RANDOM % 5 + 2))
+          done
