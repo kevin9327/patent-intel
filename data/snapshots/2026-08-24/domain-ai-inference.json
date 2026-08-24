@@ -1,0 +1,196 @@
+{
+ "generated": "2026-08-24",
+ "domain": "ai-inference",
+ "name": "AI Inference & Serving",
+ "description": "Model serving, quantization, KV cache, inference acceleration.",
+ "flagship_query": "\"KV cache\"",
+ "query_volumes": [
+  {
+   "query": "\"KV cache\"",
+   "total": 2921
+  },
+  {
+   "query": "\"model quantization\"",
+   "total": 7585
+  },
+  {
+   "query": "inference acceleration \"language model\"",
+   "total": 44305
+  }
+ ],
+ "top_filers_sampled": [
+  {
+   "assignee": "华为技术有限公司",
+   "count": 43
+  },
+  {
+   "assignee": "苏州元脑智能科技有限公司",
+   "count": 25
+  },
+  {
+   "assignee": "中国移动通信集团有限公司",
+   "count": 21
+  },
+  {
+   "assignee": "Intel Corporation",
+   "count": 21
+  },
+  {
+   "assignee": "上海交通大学",
+   "count": 20
+  },
+  {
+   "assignee": "Qualcomm Incorporated",
+   "count": 18
+  },
+  {
+   "assignee": "中国电信股份有限公司",
+   "count": 18
+  },
+  {
+   "assignee": "中国电信股份有限公司技术创新中心",
+   "count": 17
+  },
+  {
+   "assignee": "联想(北京)有限公司",
+   "count": 17
+  },
+  {
+   "assignee": "腾讯科技（深圳）有限公司",
+   "count": 17
+  },
+  {
+   "assignee": "上海壁仞科技股份有限公司",
+   "count": 14
+  },
+  {
+   "assignee": "清华大学",
+   "count": 14
+  },
+  {
+   "assignee": "Microsoft Technology Licensing, Llc",
+   "count": 14
+  },
+  {
+   "assignee": "浙江大学",
+   "count": 13
+  },
+  {
+   "assignee": "平安科技（深圳）有限公司",
+   "count": 12
+  }
+ ],
+ "filing_trend": null,
+ "fresh_filings": [
+  {
+   "publication_number": "KR20260057375A",
+   "title": "AI Model Optimization System Across Heterogeneous Hardware via Static-Dynamic …",
+   "assignee": "안범주",
+   "inventor": "안범주",
+   "filing_date": "2026-04-09",
+   "publication_date": "2026-04-28",
+   "priority_date": "",
+   "snippet": "The present invention relates to a model optimization system for executing an artificial intelligence model generated in a heterogeneous first hardware architecture group including a GPU, TPU, NPU, and IPU on a specific second hardware architecture via ONNX. The hardware analysis module of the …",
+   "link": "https://patents.google.com/patent/KR20260057375A/en"
+  },
+  {
+   "publication_number": "CN121998008A",
+   "title": "In-memory neural network processor with three-dimensional integrated …",
+   "assignee": "杭州微纳核芯电子科技有限公司",
+   "inventor": "陈沛毓",
+   "filing_date": "2026-04-09",
+   "publication_date": "2026-05-08",
+   "priority_date": "",
+   "snippet": "…  Logic Die) and the off-chip nonvolatile memory chip are integrated in a physically close range due to the fact that the memory density of the off-chip nonvolatile memory chip is high, and for specific Large Language Model (LLM) tasks, particularly, the memory requirements of key value Cache data (KV …",
+   "link": "https://patents.google.com/patent/CN121998008A/en"
+  },
+  {
+   "publication_number": "CN121980031A",
+   "title": "Sentence semantic cluster compression method based on heterogeneous KV cache, …",
+   "assignee": "电子科技大学(深圳)高等研究院",
+   "inventor": "许辉",
+   "filing_date": "2026-04-09",
+   "publication_date": "2026-05-05",
+   "priority_date": "",
+   "snippet": "At least one processor; At least one memory used to store processor-executable instructions; The at least one processor implements a sentence semantic clustering compression method based on heterogeneous KV cache as described in any one of claims 1 to 8 by running the executable instructions. 10. A …",
+   "link": "https://patents.google.com/patent/CN121980031A/en"
+  },
+  {
+   "publication_number": "CN121998007A",
+   "title": "In-memory neural network processor with 3D integration and substrate …",
+   "assignee": "杭州微纳核芯电子科技有限公司",
+   "inventor": "陈沛毓",
+   "filing_date": "2026-04-09",
+   "publication_date": "2026-05-08",
+   "priority_date": "",
+   "snippet": "The application relates to a memory-calculation integrated neural network processor based on three-dimensional integration and substrate interconnection heterogeneous storage medium and a control method thereof, comprising an off-chip volatile storage chip, a logic chip and a memory-calculation …",
+   "link": "https://patents.google.com/patent/CN121998007A/en"
+  },
+  {
+   "publication_number": "CN121979687A",
+   "title": "Task processing method, task processing system, electronic device and storage …",
+   "assignee": "阿里云计算有限公司",
+   "inventor": "徐昭",
+   "filing_date": "2026-04-03",
+   "publication_date": "2026-05-05",
+   "priority_date": "",
+   "snippet": "The resource status information may be information capable of reflecting the operation status of different processors in the plurality of processor clusters, and may include, but is not limited to, GPU video memory occupancy, computing unit utilization, KV cache hit rate, task queue backlog length, …",
+   "link": "https://patents.google.com/patent/CN121979687A/en"
+  },
+  {
+   "publication_number": "CN121981181A",
+   "title": "MoE expert deployment system and method based on wafer-level chip",
+   "assignee": "北京清微智能科技股份有限公司",
+   "inventor": "欧阳鹏",
+   "filing_date": "2026-04-02",
+   "publication_date": "2026-05-05",
+   "priority_date": "",
+   "snippet": "The invention discloses a wafer-level chip-based MoE expert deployment system and a wafer-level chip-based MoE expert deployment method, wherein the system comprises a statistics module and a clustering module, wherein the statistics module is used for counting expert coactivation probability …",
+   "link": "https://patents.google.com/patent/CN121981181A/en"
+  },
+  {
+   "publication_number": "CN121957922A",
+   "title": "A lightweight large-scale model running method based on edge deployment",
+   "assignee": "广东国粒智能科技有限公司",
+   "inventor": "孙永毫",
+   "filing_date": "2026-04-02",
+   "publication_date": "2026-05-01",
+   "priority_date": "2026-04-02",
+   "snippet": "4. The invention adopts the calculation of cosine similarity to judge the semantic similarity of a new user request in multi-round dialogue optimization based on KV Cache, only the dot product and the vector modular length are needed to be calculated, the formula is simple and the calculation is …",
+   "link": "https://patents.google.com/patent/CN121957922A/en"
+  },
+  {
+   "publication_number": "CN121960794A",
+   "title": "Collaborative reasoning method and system for self-adaptive model segmentation …",
+   "assignee": "武汉超擎数智科技有限公司",
+   "inventor": "刘畅",
+   "filing_date": "2026-04-01",
+   "publication_date": "2026-05-01",
+   "priority_date": "2026-04-01",
+   "snippet": "In such a dynamic migration process, if the model layer to be migrated is a stateful layer containing \"accumulated continuous inference states\", for example, a key value pair Cache (KV Cache) which is continuously accumulated in a generation task of natural language processing, or a dynamic hidden …",
+   "link": "https://patents.google.com/patent/CN121960794A/en"
+  },
+  {
+   "publication_number": "CN121958147A",
+   "title": "Data read-write method, system, controller and storage medium based on mixed …",
+   "assignee": "深圳市迈特芯科技有限公司",
+   "inventor": "胡成",
+   "filing_date": "2026-03-31",
+   "publication_date": "2026-05-01",
+   "priority_date": "2026-03-31",
+   "snippet": "In the pre-filling stage, forward calculation is performed by using the weight of the LLM model, and an initial KV cache is generated, wherein each PE only reads the model weight from a direct-connection FLASH cluster, each PE only reads a prompt word from a direct-connection DRAM cluster, and then …",
+   "link": "https://patents.google.com/patent/CN121958147A/en"
+  },
+  {
+   "publication_number": "CN121936517A",
+   "title": "KV cache scheduling and attention optimizing method, device, equipment and …",
+   "assignee": "北京神州数码云计算有限公司",
+   "inventor": "宋卡妮",
+   "filing_date": "2026-03-31",
+   "publication_date": "2026-04-28",
+   "priority_date": "2026-03-31",
+   "snippet": "1. A KV cache scheduling and attention optimizing method of a large language model, the method comprising: acquiring input sequence related features of a large language model transducer layer, wherein the input sequence related features comprise Key vectors of various token in an input sequence, …",
+   "link": "https://patents.google.com/patent/CN121936517A/en"
+  }
+ ]
+}
