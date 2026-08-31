@@ -1,0 +1,200 @@
+{
+ "generated": "2026-08-31",
+ "domain": "agentic-ai",
+ "name": "Agentic AI",
+ "description": "AI agents, tool use, orchestration, multi-agent systems built on LLMs.",
+ "flagship_query": "\"agentic AI\"",
+ "query_volumes": [
+  {
+   "query": "\"agentic AI\"",
+   "total": 238
+  },
+  {
+   "query": "\"AI agent\" \"large language model\"",
+   "total": 3070
+  },
+  {
+   "query": "(\"tool calling\" OR \"function calling\") \"language model\"",
+   "total": 2801
+  },
+  {
+   "query": "\"multi-agent\" \"large language model\"",
+   "total": 4421
+  }
+ ],
+ "top_filers_sampled": [
+  {
+   "assignee": "Salesforce, Inc.",
+   "count": 71
+  },
+  {
+   "assignee": "Stats Llc",
+   "count": 37
+  },
+  {
+   "assignee": "Eric L Pankey",
+   "count": 33
+  },
+  {
+   "assignee": "Citibank, N.A.",
+   "count": 29
+  },
+  {
+   "assignee": "Deere & Company",
+   "count": 16
+  },
+  {
+   "assignee": "Aieconomy Llc",
+   "count": 16
+  },
+  {
+   "assignee": "Evity Technologies, Inc.",
+   "count": 16
+  },
+  {
+   "assignee": "Onesource Solutions International, Inc.",
+   "count": 16
+  },
+  {
+   "assignee": "Oracle International Corporation",
+   "count": 16
+  },
+  {
+   "assignee": "Hytto Pte. Ltd",
+   "count": 16
+  },
+  {
+   "assignee": "未來巢科技股份有限公司",
+   "count": 12
+  },
+  {
+   "assignee": "Eric L. Pankey",
+   "count": 12
+  },
+  {
+   "assignee": "Turk Telekomunikasyon As",
+   "count": 12
+  },
+  {
+   "assignee": "Pure Storage, Inc.",
+   "count": 12
+  },
+  {
+   "assignee": "Mediatek Inc.",
+   "count": 12
+  }
+ ],
+ "filing_trend": null,
+ "fresh_filings": [
+  {
+   "publication_number": "AU2026904416A0",
+   "title": "Agentic AI workflow system for conveyancing",
+   "assignee": "Klein, Michael James MR",
+   "inventor": "Michael Klein",
+   "filing_date": "2026-05-07",
+   "publication_date": "2026-05-21",
+   "priority_date": "",
+   "snippet": "",
+   "link": "https://patents.google.com/patent/AU2026904416A0/en"
+  },
+  {
+   "publication_number": "KR20260050351A",
+   "title": "Wafer-level Deterministic AI Processor Based on Static Pipeline Architecture …",
+   "assignee": "안범주",
+   "inventor": "안범주",
+   "filing_date": "2026-03-28",
+   "publication_date": "2026-04-14",
+   "priority_date": "2026-03-28",
+   "snippet": "…  , clock cycle unit timing determined by the compiler (300) is perfectly reproduced on silicon. This provides a significant effect of guaranteeing Service Level Agreement (SLA) compliance at the hardware level for workloads where Real-time Guarantee is essential, such as Agentic AI applications.",
+   "link": "https://patents.google.com/patent/KR20260050351A/en"
+  },
+  {
+   "publication_number": "KR20260065751A",
+   "title": "…  operating system and method based on layered digital twin and edge agentic AI",
+   "assignee": "안범주",
+   "inventor": "안범주",
+   "filing_date": "2026-03-24",
+   "publication_date": "2026-05-11",
+   "priority_date": "",
+   "snippet": "The present invention relates to an autonomous industrial plant system and method based on a hierarchical digital twin and edge agentic AI, comprising an industrial facility including a physical actuator and a sensor unit; a local digital twin positioned adjacent to the industrial facility to …",
+   "link": "https://patents.google.com/patent/KR20260065751A/en"
+  },
+  {
+   "publication_number": "CN121904876A",
+   "title": "A smart access control device and system based on OpenHarmony and Agentic AI",
+   "assignee": "深圳市亲邻科技有限公司",
+   "inventor": "苏煦烽",
+   "filing_date": "2026-03-23",
+   "publication_date": "2026-04-21",
+   "priority_date": "2026-03-23",
+   "snippet": "8. The OpenHarmony and AGENTIC AI based intelligent access control device of claim 7, wherein said AI call unit further comprises a security verification unit that performs security assessment of visitor access by; a1, extracting biological characteristic information based on the characteristic …",
+   "link": "https://patents.google.com/patent/CN121904876A/en"
+  },
+  {
+   "publication_number": "CN121884938A",
+   "title": "An automated rating method and system for the pathogenicity of gene mutations …",
+   "assignee": "北京果壳生物科技有限公司",
+   "inventor": "马玉昆",
+   "filing_date": "2026-03-20",
+   "publication_date": "2026-04-17",
+   "priority_date": "2026-03-20",
+   "snippet": "…  Large Language Model (LLM) based generative artificial intelligence techniques. A learner proposed a generic architecture for medical and genetic analysis using agents AI (Agentic AI) that attempted to replace human reading literature with the generic reasoning capabilities of large models. However …",
+   "link": "https://patents.google.com/patent/CN121884938A/en"
+  },
+  {
+   "publication_number": "CN121814611A",
+   "title": "AGENTIC AI-based edge gateway system",
+   "assignee": "深圳市亲邻科技有限公司",
+   "inventor": "苏煦烽",
+   "filing_date": "2026-03-10",
+   "publication_date": "2026-04-07",
+   "priority_date": "2026-03-10",
+   "snippet": "1. An edge gateway system based on AGENTIC AI, comprising: The computing layer is used for virtualizing and pooling computing resources, storage resources and network resources of the bottom hardware by adopting a container technology; The data layer is used for storing and managing structured data …",
+   "link": "https://patents.google.com/patent/CN121814611A/en"
+  },
+  {
+   "publication_number": "DE202026101185U1",
+   "title": "System for automated account, call and sample reconciliation in the CRM area of …",
+   "assignee": "Sanjoy Mukherjee",
+   "inventor": "",
+   "filing_date": "2026-03-03",
+   "publication_date": "2026-04-23",
+   "priority_date": "2026-03-03",
+   "snippet": "DETAILED DESCRIPTION The present invention relates to the system (100) for automated account, call and sample reconciliation in the CRM field of life sciences using Agentic AI, relational data warehousing and MDM synchronization for commercial operations. shows a detailed block diagram …",
+   "link": "https://patents.google.com/patent/DE202026101185U1/en"
+  },
+  {
+   "publication_number": "KR20260051991A",
+   "title": "Apparatus and Method for Providing Intelligent Spatial Information",
+   "assignee": "류종훈",
+   "inventor": "류종훈",
+   "filing_date": "2026-02-25",
+   "publication_date": "2026-04-17",
+   "priority_date": "2026-02-25",
+   "snippet": "An intelligent spatial information provision method is disclosed, which is performed by a computing device comprising at least one processor. The disclosed method comprises the steps of: acquiring raw depth data and a two-dimensional image corresponding to the raw depth data from a sensor unit;",
+   "link": "https://patents.google.com/patent/KR20260051991A/en"
+  },
+  {
+   "publication_number": "JP7863942B1",
+   "title": "Information processing system, information processing method, and program",
+   "assignee": "株式会社Property Innovation Consulting",
+   "inventor": "忠史 山▲崎▼",
+   "filing_date": "2026-02-13",
+   "publication_date": "2026-05-22",
+   "priority_date": "2025-08-13",
+   "snippet": "[Problem] To improve the accuracy and reliability of processing results when using AI. [Solution] An information processing system using artificial intelligence, which evaluates information or a region within a target space that is the target of processing by the artificial intelligence, and, …",
+   "link": "https://patents.google.com/patent/JP7863942B1/en"
+  },
+  {
+   "publication_number": "AU2026901125A0",
+   "title": "A System Integration of Agentic AI, multimodal sensor fusion, and high speed …",
+   "assignee": "Manco Group Au Pty Ltd",
+   "inventor": "Cameron Manu",
+   "filing_date": "2026-02-11",
+   "publication_date": "2026-02-26",
+   "priority_date": "",
+   "snippet": "",
+   "link": "https://patents.google.com/patent/AU2026901125A0/en"
+  }
+ ]
+}
