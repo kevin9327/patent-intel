@@ -1,0 +1,196 @@
+{
+ "generated": "2026-09-07",
+ "domain": "llm-core",
+ "name": "LLM Core",
+ "description": "Large language model architecture, training, and fine-tuning.",
+ "flagship_query": "\"large language model\"",
+ "query_volumes": [
+  {
+   "query": "\"large language model\"",
+   "total": 118670
+  },
+  {
+   "query": "\"transformer model\" attention",
+   "total": 30533
+  },
+  {
+   "query": "\"fine-tuning\" \"language model\"",
+   "total": 68962
+  }
+ ],
+ "top_filers_sampled": [
+  {
+   "assignee": "北京百度网讯科技有限公司",
+   "count": 26
+  },
+  {
+   "assignee": "Microsoft Technology Licensing, Llc",
+   "count": 23
+  },
+  {
+   "assignee": "浙江大学",
+   "count": 23
+  },
+  {
+   "assignee": "山东浪潮科学研究院有限公司",
+   "count": 18
+  },
+  {
+   "assignee": "清华大学",
+   "count": 18
+  },
+  {
+   "assignee": "北京大学",
+   "count": 11
+  },
+  {
+   "assignee": "Google Llc",
+   "count": 11
+  },
+  {
+   "assignee": "之江实验室",
+   "count": 11
+  },
+  {
+   "assignee": "中国科学院自动化研究所",
+   "count": 10
+  },
+  {
+   "assignee": "拉扎斯网络科技（上海）有限公司",
+   "count": 8
+  },
+  {
+   "assignee": "Amazon Technologies, Inc.",
+   "count": 8
+  },
+  {
+   "assignee": "Unlikely Artificial Intelligence Limited",
+   "count": 6
+  },
+  {
+   "assignee": "腾讯科技（深圳）有限公司",
+   "count": 6
+  },
+  {
+   "assignee": "浪潮软件科技有限公司",
+   "count": 6
+  },
+  {
+   "assignee": "International Business Machines Corporation",
+   "count": 5
+  }
+ ],
+ "filing_trend": null,
+ "fresh_filings": [
+  {
+   "publication_number": "AU2026202054A1",
+   "title": "Customer Agent Recording Systems And Methods",
+   "assignee": "Ujwal Inc.",
+   "inventor": "Manisha BARNWAL",
+   "filing_date": "2026-03-17",
+   "publication_date": "2026-04-09",
+   "priority_date": "2023-06-15",
+   "snippet": "Automatic analyses of customer-agent interactions provide valuable, actionable feedback for managers, agents, and customers. To provide such analyses, methods for recording and analysis of customer-agent interactions using a customer relationship management (CRM) system are disclosed. A recorder …",
+   "link": "https://patents.google.com/patent/AU2026202054A1/en"
+  },
+  {
+   "publication_number": "CN121808072B",
+   "title": "Cross-modal conference information association retrieval method, system and …",
+   "assignee": "中国科学技术大学",
+   "inventor": "廖纯阳",
+   "filing_date": "2026-03-06",
+   "publication_date": "2026-05-19",
+   "priority_date": "",
+   "snippet": "…  cross-modal encoder to obtain Top-K candidate fragments to form a candidate set, wherein K is an integer; the second stage of fine sorting, namely executing deep cross-modal semantic rearrangement on the candidate set by utilizing a large language model, and calculating fine sorting scores; …",
+   "link": "https://patents.google.com/patent/CN121808072B/en"
+  },
+  {
+   "publication_number": "CN121765120B",
+   "title": "Multi-mode retrieval method and system based on lightweight knowledge graph and …",
+   "assignee": "中国航发四川燃气涡轮研究院",
+   "inventor": "杜严",
+   "filing_date": "2026-03-03",
+   "publication_date": "2026-05-15",
+   "priority_date": "",
+   "snippet": "…  the natural language query input by the current user to obtain the semantic query vector and the keyword set includes: Performing intention analysis and keyword extraction on natural language query input by a user through a large language model to generate a semantic query vector and a keyword set;",
+   "link": "https://patents.google.com/patent/CN121765120B/en"
+  },
+  {
+   "publication_number": "CN121681719A",
+   "title": "…  and intelligent answering method and system based on large language model",
+   "assignee": "厦门渊亭信息科技有限公司",
+   "inventor": "宋玉婷",
+   "filing_date": "2026-02-12",
+   "publication_date": "2026-03-17",
+   "priority_date": "2026-02-12",
+   "snippet": "7. The method for retrieving and intelligently solving an enterprise knowledge base based on a large language model according to claim 1, wherein in step S4, text content of a preceding knowledge item in the final candidate knowledge item list and a predefined answer generation instruction are …",
+   "link": "https://patents.google.com/patent/CN121681719A/en"
+  },
+  {
+   "publication_number": "CN121598989B",
+   "title": "Intelligent memory management method and device based on asynchronous …",
+   "assignee": "深圳凡泰极客科技有限责任公司",
+   "inventor": "梁启鸿",
+   "filing_date": "2026-01-30",
+   "publication_date": "2026-04-14",
+   "priority_date": "2026-01-30",
+   "snippet": "…  technical route: 1. And the synchronous processing architecture is that the intelligent agent immediately invokes a Large Language Model (LLM) to carry out memory extraction and processing when receiving the user information, and then directly writes the processing result into the storage system.",
+   "link": "https://patents.google.com/patent/CN121598989B/en"
+  },
+  {
+   "publication_number": "CN121644231B",
+   "title": "…  network intrusion detection method based on pre-training large language model",
+   "assignee": "华东交通大学",
+   "inventor": "李轩",
+   "filing_date": "2026-01-29",
+   "publication_date": "2026-04-24",
+   "priority_date": "2026-01-29",
+   "snippet": "5. The industrial internet network intrusion detection method based on the pre-trained large language model according to claim 4, wherein said step S2 specifically comprises the steps of: Step S21, loading a pre-training weight file for generating a model GPT-2, wherein the generating model GPT-2 …",
+   "link": "https://patents.google.com/patent/CN121644231B/en"
+  },
+  {
+   "publication_number": "CN121597445B",
+   "title": "Interface calling methods, electronic devices and storage media",
+   "assignee": "济南浪潮数据技术有限公司",
+   "inventor": "郭涛",
+   "filing_date": "2026-01-28",
+   "publication_date": "2026-04-17",
+   "priority_date": "2026-01-28",
+   "snippet": "…  embodiments of the present application will be briefly described first. LLM (Large Language Model), large language model), in the embodiment of the application, refers to a natural language processing core model for performing instruction semantic recognition and parameter preliminary extraction. …",
+   "link": "https://patents.google.com/patent/CN121597445B/en"
+  },
+  {
+   "publication_number": "CN121598394B",
+   "title": "Source code security vulnerability semantic detection method based on large …",
+   "assignee": "深圳海云安网络安全技术有限公司",
+   "inventor": "谢朝海",
+   "filing_date": "2026-01-28",
+   "publication_date": "2026-04-21",
+   "priority_date": "2026-01-28",
+   "snippet": "This invention relates to the field of electronic digital data processing technology and discloses a source code security vulnerability semantic detection method based on a large language model. The method includes: parsing the source code to be tested to extract execution path constraint features;",
+   "link": "https://patents.google.com/patent/CN121598394B/en"
+  },
+  {
+   "publication_number": "CN121579417B",
+   "title": "Task processing device, task processing method, electronic device and storage …",
+   "assignee": "上海壁仞科技股份有限公司",
+   "inventor": "请求不公布姓名",
+   "filing_date": "2026-01-27",
+   "publication_date": "2026-04-28",
+   "priority_date": "2026-01-27",
+   "snippet": "Embodiments of this disclosure provide a task processing apparatus, a task processing method, an electronic device, and a storage medium. The task processing apparatus includes a computation scheduling core and a functional core integrated in a single package. The computation scheduling core …",
+   "link": "https://patents.google.com/patent/CN121579417B/en"
+  },
+  {
+   "publication_number": "CN121561116A",
+   "title": "Method and system for constructing and retrieving power grid transformation …",
+   "assignee": "中国电力工程顾问集团西南电力设计院有限公司",
+   "inventor": "冯勇",
+   "filing_date": "2026-01-22",
+   "publication_date": "2026-02-24",
+   "priority_date": "2026-01-22",
+   "snippet": "Further, the text block-based entity and relation extraction and multi-round refining method for completing implicit entity and relation comprises the steps of calling a large language model in parallel and combining related prompt words of the field, extracting the entity and relation, wherein the …",
+   "link": "https://patents.google.com/patent/CN121561116A/en"
+  }
+ ]
+}
