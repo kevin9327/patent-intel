@@ -1,0 +1,196 @@
+{
+ "generated": "2026-09-21",
+ "domain": "ai-inference",
+ "name": "AI Inference & Serving",
+ "description": "Model serving, quantization, KV cache, inference acceleration.",
+ "flagship_query": "\"KV cache\"",
+ "query_volumes": [
+  {
+   "query": "\"KV cache\"",
+   "total": 2999
+  },
+  {
+   "query": "\"model quantization\"",
+   "total": 8129
+  },
+  {
+   "query": "inference acceleration \"language model\"",
+   "total": 42463
+  }
+ ],
+ "top_filers_sampled": [
+  {
+   "assignee": "华为技术有限公司",
+   "count": 45
+  },
+  {
+   "assignee": "Intel Corporation",
+   "count": 28
+  },
+  {
+   "assignee": "苏州元脑智能科技有限公司",
+   "count": 27
+  },
+  {
+   "assignee": "上海交通大学",
+   "count": 24
+  },
+  {
+   "assignee": "联想(北京)有限公司",
+   "count": 22
+  },
+  {
+   "assignee": "中国移动通信集团有限公司",
+   "count": 19
+  },
+  {
+   "assignee": "清华大学",
+   "count": 18
+  },
+  {
+   "assignee": "中国电信股份有限公司",
+   "count": 18
+  },
+  {
+   "assignee": "中国电信股份有限公司技术创新中心",
+   "count": 16
+  },
+  {
+   "assignee": "平安科技（深圳）有限公司",
+   "count": 16
+  },
+  {
+   "assignee": "Qualcomm Incorporated",
+   "count": 15
+  },
+  {
+   "assignee": "上海壁仞科技股份有限公司",
+   "count": 13
+  },
+  {
+   "assignee": "腾讯科技（深圳）有限公司",
+   "count": 13
+  },
+  {
+   "assignee": "浙江大学",
+   "count": 13
+  },
+  {
+   "assignee": "Microsoft Technology Licensing, Llc",
+   "count": 12
+  }
+ ],
+ "filing_trend": null,
+ "fresh_filings": [
+  {
+   "publication_number": "KR20260068042A",
+   "title": "CXL Controller Apparatus and Method for Thermal Suppression by Reducing Light …",
+   "assignee": "안범주",
+   "inventor": "안범주",
+   "filing_date": "2026-04-26",
+   "publication_date": "2026-05-13",
+   "priority_date": "",
+   "snippet": "Since the KV-Cache access pattern of the attention layer L_n in LLM inference has a high correlation with the pattern of layer L_{n+1}, the compression ratio prediction unit (440) can calculate the expected compression ratio of the next layer during the processing of the current layer and prepare …",
+   "link": "https://patents.google.com/patent/KR20260068042A/en"
+  },
+  {
+   "publication_number": "CN122065270A",
+   "title": "Large model key value pair fusion processing method, device and system for …",
+   "assignee": "上海芯力基半导体有限公司",
+   "inventor": "唐文凯",
+   "filing_date": "2026-04-21",
+   "publication_date": "2026-05-19",
+   "priority_date": "",
+   "snippet": "…  similar to virtual memory management of an operating system. The mechanism divides a key value Cache (KV Cache) into physical blocks with fixed sizes, performs discontinuous memory management through a page table, and maps logically continuous Token into physically discontinuous video memory space.",
+   "link": "https://patents.google.com/patent/CN122065270A/en"
+  },
+  {
+   "publication_number": "CN122066814A",
+   "title": "Image controllable generation method and system for packaging field",
+   "assignee": "浙江省北大信息技术高等研究院",
+   "inventor": "潘帅",
+   "filing_date": "2026-04-20",
+   "publication_date": "2026-05-19",
+   "priority_date": "",
+   "snippet": "For example, easyControl adopts a KV-cache mode, so that only one-way attention calculation can be performed between the image features and the control features, omniControl simply and roughly splices the control features and the image features together and inputs the control features and the …",
+   "link": "https://patents.google.com/patent/CN122066814A/en"
+  },
+  {
+   "publication_number": "CN122065914A",
+   "title": "Intelligent customer service base large model distillation method, system and …",
+   "assignee": "电子科大科园股份有限公司",
+   "inventor": "杨杰",
+   "filing_date": "2026-04-20",
+   "publication_date": "2026-05-19",
+   "priority_date": "",
+   "snippet": "8. The intelligent customer service base large model distillation method according to claim 1, wherein in the model derivation and deployment optimization, reasoning acceleration optimization comprises 8-bit/4-bit quantization and KV Cache optimization. 9. An intelligent customer service base large …",
+   "link": "https://patents.google.com/patent/CN122065914A/en"
+  },
+  {
+   "publication_number": "CN122047219A",
+   "title": "Low-consumption and high-credibility text analysis method and device based on …",
+   "assignee": "哈尔滨工业大学(深圳)(哈尔滨工业大学深圳科技创新研究院)",
+   "inventor": "卞凯",
+   "filing_date": "2026-04-17",
+   "publication_date": "2026-05-15",
+   "priority_date": "2026-04-17",
+   "snippet": "…  art, single request-single data or static fixed-length concurrency is adopted, so that two serious bottom hardware resource waste are caused, namely network I/O and GPU video memory waste, a long instruction is repeatedly transmitted due to extremely low effective load rate (Payload Ratio), KV …",
+   "link": "https://patents.google.com/patent/CN122047219A/en"
+  },
+  {
+   "publication_number": "CN122049087A",
+   "title": "Image generation method and device, electronic equipment and nonvolatile …",
+   "assignee": "中国电信股份有限公司",
+   "inventor": "李学龙",
+   "filing_date": "2026-04-17",
+   "publication_date": "2026-05-15",
+   "priority_date": "2026-04-17",
+   "snippet": "…  inside of each scale adopts an explicit neural network stack with fixed depth, so that the model parameter and the intermediate active memory are exponentially increased along with the network depth and the resolution, and particularly in a high-resolution image generation task, the Key Value (KV) …",
+   "link": "https://patents.google.com/patent/CN122049087A/en"
+  },
+  {
+   "publication_number": "CN122047520A",
+   "title": "Data processing method, apparatus, electronic device, storage medium, and …",
+   "assignee": "北京算能科技有限公司",
+   "inventor": "谭星亮",
+   "filing_date": "2026-04-17",
+   "publication_date": "2026-05-15",
+   "priority_date": "2026-04-17",
+   "snippet": "In the related art, when predicting a new word, the large language model compares attention scores of a currently queried vector and all cached key vectors according to KV cache, then orders importance of candidate Token (historical word) based on the attention scores, and selects K Token with …",
+   "link": "https://patents.google.com/patent/CN122047520A/en"
+  },
+  {
+   "publication_number": "CN122047331A",
+   "title": "Accelerated quantization and inverse quantization data processing method, …",
+   "assignee": "上海光羽芯辰科技有限公司",
+   "inventor": "请求不公布姓名",
+   "filing_date": "2026-04-17",
+   "publication_date": "2026-05-15",
+   "priority_date": "2026-04-17",
+   "snippet": "The second inverse quantization processing mode is suitable for scenes needing high-precision weight data, such as initialization of a key value Cache (KV Cache), model calibration, mixed precision rollback (fallback) or debugging analysis, and aims to generate weight update data in a floating …",
+   "link": "https://patents.google.com/patent/CN122047331A/en"
+  },
+  {
+   "publication_number": "CN122019737A",
+   "title": "Dialogue method, device, equipment and medium based on KV cache and large …",
+   "assignee": "煜象科技(杭州)有限公司",
+   "inventor": "俞金君",
+   "filing_date": "2026-04-15",
+   "publication_date": "2026-05-12",
+   "priority_date": "2026-04-15",
+   "snippet": "The attention weights are determined based on the attention matrix of the last layer of the decoder in the large language model. Each word in the KV cache is valued according to the attention weight to obtain the corresponding score result; The KV cache is filtered based on the relationship between …",
+   "link": "https://patents.google.com/patent/CN122019737A/en"
+  },
+  {
+   "publication_number": "CN122049784A",
+   "title": "Visual language big model understanding method, device, computer equipment and …",
+   "assignee": "之江实验室",
+   "inventor": "郭方泰",
+   "filing_date": "2026-04-15",
+   "publication_date": "2026-05-15",
+   "priority_date": "2026-04-15",
+   "snippet": "This application relates to a method, apparatus, computer device, and storage medium for understanding large-scale visual language models. The method includes: inputting a long video and text prompts into a pre-trained large-scale visual language model; determining concatenated features based on …",
+   "link": "https://patents.google.com/patent/CN122049784A/en"
+  }
+ ]
+}
