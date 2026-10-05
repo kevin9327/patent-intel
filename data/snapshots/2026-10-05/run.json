@@ -1,0 +1,10 @@
+{
+ "snapshot_date": "2026-10-05",
+ "status": "complete",
+ "note": "",
+ "written": [
+  "data/snapshots/2026-10-05/domain-llm-core.json",
+  "reports/2026-10-05-llm-core.md",
+  "data/snapshots/2026-10-05/watchlist.json"
+ ]
+}

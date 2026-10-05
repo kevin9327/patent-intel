@@ -1,0 +1,25 @@
+{
+ "generated": "2026-10-05",
+ "watchlist": [
+  {
+   "assignee": "OpenAI",
+   "total_publications": 91
+  },
+  {
+   "assignee": "Anthropic",
+   "total_publications": 18
+  },
+  {
+   "assignee": "DeepMind Technologies",
+   "total_publications": 2600
+  },
+  {
+   "assignee": "NVIDIA",
+   "total_publications": 33380
+  },
+  {
+   "assignee": "Microsoft Technology Licensing",
+   "total_publications": 123922
+  }
+ ]
+}
