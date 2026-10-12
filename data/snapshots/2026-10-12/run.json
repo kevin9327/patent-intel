@@ -1,0 +1,10 @@
+{
+ "snapshot_date": "2026-10-12",
+ "status": "complete",
+ "note": "",
+ "written": [
+  "data/snapshots/2026-10-12/domain-rag.json",
+  "reports/2026-10-12-rag.md",
+  "data/snapshots/2026-10-12/watchlist.json"
+ ]
+}

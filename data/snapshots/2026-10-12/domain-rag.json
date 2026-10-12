@@ -1,0 +1,196 @@
+{
+ "generated": "2026-10-12",
+ "domain": "rag",
+ "name": "Retrieval-Augmented Generation",
+ "description": "RAG pipelines, vector search, embeddings, grounding.",
+ "flagship_query": "\"retrieval augmented generation\"",
+ "query_volumes": [
+  {
+   "query": "\"retrieval augmented generation\"",
+   "total": 22274
+  },
+  {
+   "query": "\"vector database\" embedding",
+   "total": 16352
+  },
+  {
+   "query": "\"semantic search\" \"language model\"",
+   "total": 5193
+  }
+ ],
+ "top_filers_sampled": [
+  {
+   "assignee": "Dell Products L.P.",
+   "count": 50
+  },
+  {
+   "assignee": "Salesforce, Inc.",
+   "count": 35
+  },
+  {
+   "assignee": "Microsoft Technology Licensing, Llc",
+   "count": 31
+  },
+  {
+   "assignee": "Nvidia Corporation",
+   "count": 30
+  },
+  {
+   "assignee": "Intuit Inc.",
+   "count": 24
+  },
+  {
+   "assignee": "Oracle International Corporation",
+   "count": 20
+  },
+  {
+   "assignee": "THIA ST Co.",
+   "count": 13
+  },
+  {
+   "assignee": "Intel Corporation",
+   "count": 12
+  },
+  {
+   "assignee": "Google Llc",
+   "count": 12
+  },
+  {
+   "assignee": "Sap Se",
+   "count": 11
+  },
+  {
+   "assignee": "The Toronto-Dominion Bank",
+   "count": 11
+  },
+  {
+   "assignee": "Amazon Technologies, Inc.",
+   "count": 10
+  },
+  {
+   "assignee": "Vijay Madisetti",
+   "count": 10
+  },
+  {
+   "assignee": "Qomplx Llc",
+   "count": 10
+  },
+  {
+   "assignee": "Cisco Technology, Inc.",
+   "count": 10
+  }
+ ],
+ "filing_trend": null,
+ "fresh_filings": [
+  {
+   "publication_number": "KR20260121894A",
+   "title": "System and Method for Information Processing Control Using Semantic …",
+   "assignee": "주식회사 위키시큐리티",
+   "inventor": "홍진기",
+   "filing_date": "2026-07-24",
+   "publication_date": "2026-08-11",
+   "priority_date": "",
+   "snippet": "A runtime event collector that collects multiple runtime events occurring during the execution of an operating system, process, container, application, database, network, AI agent, tool calling, retrieval-augmented generation (RAG), model context protocol (MCP), or application programming interface …",
+   "link": "https://patents.google.com/patent/KR20260121894A/en"
+  },
+  {
+   "publication_number": "CN122615092A",
+   "title": "A Method and System for Constructing Heterogeneous Scientific and Technological …",
+   "assignee": "贵州财经大学",
+   "inventor": "孔嘉",
+   "filing_date": "2026-07-24",
+   "publication_date": "2026-08-21",
+   "priority_date": "",
+   "snippet": "The invention provides a heterogeneous science-technology knowledge graph construction method and system, comprising the steps of analyzing multisource scientific literature and expert interview data, defining structural differences of scientific papers and technical patent knowledge through …",
+   "link": "https://patents.google.com/patent/CN122615092A/en"
+  },
+  {
+   "publication_number": "CN122616481A",
+   "title": "A method and system for constructing long-term memory based on a backbone …",
+   "assignee": "杭州电子科技大学",
+   "inventor": "王亚奇",
+   "filing_date": "2026-07-24",
+   "publication_date": "2026-08-21",
+   "priority_date": "",
+   "snippet": "At present, the long-term memory system of the intelligent agent mainly adopts the technologies of vector database, text storage, knowledge base management, retrieval enhancement generation (RETRIEVAL-Augmented Generation, RAG) and the like to realize the storage and retrieval of the historical …",
+   "link": "https://patents.google.com/patent/CN122616481A/en"
+  },
+  {
+   "publication_number": "CN122615047A",
+   "title": "A Natural Language Query Method and Apparatus for Materials Data",
+   "assignee": "北京科技大学",
+   "inventor": "何杰",
+   "filing_date": "2026-07-23",
+   "publication_date": "2026-08-21",
+   "priority_date": "",
+   "snippet": "The invention provides a natural language query method and a natural language query device for material data, and relates to the technical fields of computer science and material genetic engineering. The method comprises the steps of obtaining a semi-structured material database and natural …",
+   "link": "https://patents.google.com/patent/CN122615047A/en"
+  },
+  {
+   "publication_number": "CN122594947A",
+   "title": "A hierarchical bucket rearrangement-based HS coding classification method and …",
+   "assignee": "宁波数字孪生(东方理工)研究院",
+   "inventor": "惠子",
+   "filing_date": "2026-07-23",
+   "publication_date": "2026-08-18",
+   "priority_date": "",
+   "snippet": "OVR is a multi-classification strategy, which is fully called One-Versus-Rest, namely One-to-many. RAG is known as RETRIEVAL-Augmented Generation, namely search enhancement generation, and is a technology combining search and generation. XGBoost Total eXtreme Gradient Boosting, extreme gradient …",
+   "link": "https://patents.google.com/patent/CN122594947A/en"
+  },
+  {
+   "publication_number": "CN122619384A",
+   "title": "A Method for Managing Pregnant Family Mental Health Based on Knowledge Base …",
+   "assignee": "山东军地信息技术集团有限公司",
+   "inventor": "李俊杰",
+   "filing_date": "2026-07-22",
+   "publication_date": "2026-08-21",
+   "priority_date": "",
+   "snippet": "…  attention decoder to construct the psychological consultation large model. Psychological consultation robots based on multi-modal data and vertical large models introduce retrieval enhancement generation (RETRIEVAL-Augmented Generation, RAG) and knowledge graph technology to improve answer quality.",
+   "link": "https://patents.google.com/patent/CN122619384A/en"
+  },
+  {
+   "publication_number": "CN122621477A",
+   "title": "A method and device for intelligent parsing and translating emergency …",
+   "assignee": "中国人民解放军信息支援部队工程大学",
+   "inventor": "陶宇",
+   "filing_date": "2026-07-22",
+   "publication_date": "2026-08-21",
+   "priority_date": "",
+   "snippet": "…  which are currently required to be executed by the large language model. The external knowledge component is used for obtaining the urban emergency related professional knowledge through retrieval enhancement generation (RETRIEVAL-Augmented Generation, RAG for short) or knowledge graph retrieval.",
+   "link": "https://patents.google.com/patent/CN122621477A/en"
+  },
+  {
+   "publication_number": "CN122594349A",
+   "title": "A Simulation Method for Saline-Alkali Land Improvement Technology Based on …",
+   "assignee": "中国科学院合肥物质科学研究院",
+   "inventor": "孙友强",
+   "filing_date": "2026-07-22",
+   "publication_date": "2026-08-18",
+   "priority_date": "",
+   "snippet": "In recent years, the development of large language models and retrieval enhancement generation (RAG, RETRIEVAL-augmented Generation) technology provides a new technical path for agricultural intelligent decision-making. By introducing external knowledge retrieval, large language models can improve …",
+   "link": "https://patents.google.com/patent/CN122594349A/en"
+  },
+  {
+   "publication_number": "CN122615045A",
+   "title": "Knowledge retrieval methods, devices, electronic equipment, storage media, and …",
+   "assignee": "科大讯飞股份有限公司",
+   "inventor": "杨超",
+   "filing_date": "2026-07-22",
+   "publication_date": "2026-08-21",
+   "priority_date": "",
+   "snippet": "With the development of artificial intelligence and knowledge retrieval technology, the large model retrieval enhancement generation RAG (RETRIEVAL-augmented Generation) system is widely applied to the scenes of enterprise knowledge base, intelligent question-answering and the like, and provides …",
+   "link": "https://patents.google.com/patent/CN122615045A/en"
+  },
+  {
+   "publication_number": "CN122597488A",
+   "title": "Methods for dimensioning machining drawings and related equipment, products, …",
+   "assignee": "上海黑湖网络科技有限公司",
+   "inventor": "张寅丁",
+   "filing_date": "2026-07-21",
+   "publication_date": "2026-08-18",
+   "priority_date": "",
+   "snippet": "To overcome the above limitations of VLM, those skilled in the art have attempted to introduce search enhancement generation (RAG, RETRIEVAL-Augmented Generation) techniques to search process manuals, historical engineering case knowledge as a contextual supplement at VLM reasoning. However, the …",
+   "link": "https://patents.google.com/patent/CN122597488A/en"
+  }
+ ]
+}
