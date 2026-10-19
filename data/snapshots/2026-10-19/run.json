@@ -1,0 +1,10 @@
+{
+ "snapshot_date": "2026-10-19",
+ "status": "complete",
+ "note": "",
+ "written": [
+  "data/snapshots/2026-10-19/domain-ai-inference.json",
+  "reports/2026-10-19-ai-inference.md",
+  "data/snapshots/2026-10-19/watchlist.json"
+ ]
+}

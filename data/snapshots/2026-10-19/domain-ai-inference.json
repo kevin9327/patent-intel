@@ -1,0 +1,196 @@
+{
+ "generated": "2026-10-19",
+ "domain": "ai-inference",
+ "name": "AI Inference & Serving",
+ "description": "Model serving, quantization, KV cache, inference acceleration.",
+ "flagship_query": "\"KV cache\"",
+ "query_volumes": [
+  {
+   "query": "\"KV cache\"",
+   "total": 4452
+  },
+  {
+   "query": "\"model quantization\"",
+   "total": 9016
+  },
+  {
+   "query": "inference acceleration \"language model\"",
+   "total": 50535
+  }
+ ],
+ "top_filers_sampled": [
+  {
+   "assignee": "华为技术有限公司",
+   "count": 46
+  },
+  {
+   "assignee": "上海交通大学",
+   "count": 23
+  },
+  {
+   "assignee": "中国移动通信集团有限公司",
+   "count": 22
+  },
+  {
+   "assignee": "Intel Corporation",
+   "count": 21
+  },
+  {
+   "assignee": "苏州元脑智能科技有限公司",
+   "count": 20
+  },
+  {
+   "assignee": "联想(北京)有限公司",
+   "count": 20
+  },
+  {
+   "assignee": "清华大学",
+   "count": 16
+  },
+  {
+   "assignee": "中国电信股份有限公司",
+   "count": 15
+  },
+  {
+   "assignee": "中国电信股份有限公司技术创新中心",
+   "count": 14
+  },
+  {
+   "assignee": "Qualcomm Incorporated",
+   "count": 14
+  },
+  {
+   "assignee": "上海壁仞科技股份有限公司",
+   "count": 13
+  },
+  {
+   "assignee": "浙江大学",
+   "count": 11
+  },
+  {
+   "assignee": "Microsoft Technology Licensing, Llc",
+   "count": 10
+  },
+  {
+   "assignee": "腾讯科技（深圳）有限公司",
+   "count": 10
+  },
+  {
+   "assignee": "超聚变数字技术股份有限公司",
+   "count": 9
+  }
+ ],
+ "filing_trend": null,
+ "fresh_filings": [
+  {
+   "publication_number": "CN122621522A",
+   "title": "A cross-device AI inference routing method, system, and computer-readable …",
+   "assignee": "北京蓝亚盒子科技有限公司",
+   "inventor": "谢成鸿",
+   "filing_date": "2026-07-23",
+   "publication_date": "2026-08-21",
+   "priority_date": "",
+   "snippet": "In the step, the SFI session isolation reasoning process aims at ensuring that a KV Cache (key value Cache) is stored locally in target equipment, transmission is not carried out across equipment, and reasoning data safety is guaranteed, wherein the single token reasoning time is about 25ms ( …",
+   "link": "https://patents.google.com/patent/CN122621522A/en"
+  },
+  {
+   "publication_number": "CN122615872A",
+   "title": "A Large Language Model Defense Method and System Based on Context Stripping and …",
+   "assignee": "长春大学",
+   "inventor": "刘妍秀",
+   "filing_date": "2026-07-23",
+   "publication_date": "2026-08-21",
+   "priority_date": "",
+   "snippet": "step 2, distributing the original input token stream of the user to a target track generation process running in a first independent GPU video memory partition through a hardware routing distribution module, loading a session KV-cache tensor to the partition video memory by the target track …",
+   "link": "https://patents.google.com/patent/CN122615872A/en"
+  },
+  {
+   "publication_number": "CN122594350A",
+   "title": "A key-value caching compression method and device for anomaly detection in …",
+   "assignee": "国网浙江省电力有限公司电力科学研究院",
+   "inventor": "杨旻升",
+   "filing_date": "2026-07-22",
+   "publication_date": "2026-08-18",
+   "priority_date": "",
+   "snippet": "In the related art, KV cache compression methods such as SnapKV, adaKV, pyramidKV are designed for general texts and general visual tasks, and KV important positions are fixedly screened only by means of attention scores, and customized adaptation is not performed for abnormal detection tasks of …",
+   "link": "https://patents.google.com/patent/CN122594350A/en"
+  },
+  {
+   "publication_number": "CN122614301A",
+   "title": "Storage controller, storage device, data processing system, method and medium",
+   "assignee": "联芸科技(杭州)股份有限公司",
+   "inventor": "余文康",
+   "filing_date": "2026-07-22",
+   "publication_date": "2026-08-21",
+   "priority_date": "",
+   "snippet": "Four layers of memory cells (Quad LEVEL CELL, QLC), NAND flash memory, each storing 4 bits of data. Key-Value Cache (KV Cache) is used for caching Key-Value pair data calculated by attention in the AI large model reasoning process and used for accelerating reasoning. Expert parameters (Expert …",
+   "link": "https://patents.google.com/patent/CN122614301A/en"
+  },
+  {
+   "publication_number": "CN122594031A",
+   "title": "A computing power scheduling method based on token consumption",
+   "assignee": "新智惠想科技(天津)有限公司",
+   "inventor": "吴健",
+   "filing_date": "2026-07-22",
+   "publication_date": "2026-08-18",
+   "priority_date": "",
+   "snippet": "This invention discloses a computing power scheduling method based on token consumption, belonging to the field of computer science. It receives large model inference requests, parses them into input token sequences, and counts the number of input tokens. A preset threshold is dynamically adjusted …",
+   "link": "https://patents.google.com/patent/CN122594031A/en"
+  },
+  {
+   "publication_number": "CN122601554A",
+   "title": "Adaptive Routing and Flow Control System for Large Model Inference",
+   "assignee": "开元云(北京)科技有限公司",
+   "inventor": "董洁",
+   "filing_date": "2026-07-21",
+   "publication_date": "2026-08-18",
+   "priority_date": "",
+   "snippet": "CN121501479A discloses a large model cluster distribution system and method based on performance perception, wherein the system comprises a routing decision module, a resource pooling module, a KV cache perception module, a performance perception module and a performance perception module, wherein …",
+   "link": "https://patents.google.com/patent/CN122601554A/en"
+  },
+  {
+   "publication_number": "CN122571589A",
+   "title": "Runtime shortcut action semantic authorization method, system, and terminal …",
+   "assignee": "人工智能与数字经济广东省实验室(深圳)",
+   "inventor": "李麟霄",
+   "filing_date": "2026-07-20",
+   "publication_date": "2026-08-14",
+   "priority_date": "2026-07-20",
+   "snippet": "…  certificate types and inspection conditions corresponding to different convergence semantics provided by an embodiment of the present application; FIG. 10 is a schematic diagram of a KV cache sharing architecture for branched LLM reasoning provided by an embodiment of the present application; FIG. …",
+   "link": "https://patents.google.com/patent/CN122571589A/en"
+  },
+  {
+   "publication_number": "CN122572695A",
+   "title": "A data processing method and apparatus",
+   "assignee": "阿里云计算有限公司",
+   "inventor": "陈浩",
+   "filing_date": "2026-07-20",
+   "publication_date": "2026-08-14",
+   "priority_date": "2026-07-20",
+   "snippet": "…  process of invoking an artificial intelligence model, such as a large language model (Large Language Model, LLM), in order to reduce the repeated computation of Key tensors and Value tensors in an attention mechanism, so as to save computing resources and reduce reasoning delay, a Key-Value Cache ( …",
+   "link": "https://patents.google.com/patent/CN122572695A/en"
+  },
+  {
+   "publication_number": "CN122569965A",
+   "title": "Deployment methods, devices, media, equipment, and program products for large …",
+   "assignee": "北京火山引擎科技有限公司",
+   "inventor": "杨子夜",
+   "filing_date": "2026-07-17",
+   "publication_date": "2026-08-14",
+   "priority_date": "2026-07-17",
+   "snippet": "The initialization result (such as attention buffer) generated in the pre-filling stage is transferred to the large model instance responsible for the decoding stage in the form of key value data (KV Cache). And gradually generating a final output text sequence by the large model instance …",
+   "link": "https://patents.google.com/patent/CN122569965A/en"
+  },
+  {
+   "publication_number": "CN122570695A",
+   "title": "Hardware-aware joint search methods, systems, devices and media",
+   "assignee": "上海光羽芯辰科技有限公司",
+   "inventor": "请求不公布姓名",
+   "filing_date": "2026-07-17",
+   "publication_date": "2026-08-14",
+   "priority_date": "2026-07-17",
+   "snippet": "7. The method of claim 1, wherein the quantizing the evaluation result by the multi-objective optimization function and applying a penalty to access degradation overhead to guide iterative optimization of the KV Cache joint compression candidate policy until a preset convergence condition is …",
+   "link": "https://patents.google.com/patent/CN122570695A/en"
+  }
+ ]
+}
