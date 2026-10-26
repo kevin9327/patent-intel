@@ -1,0 +1,200 @@
+{
+ "generated": "2026-10-26",
+ "domain": "agentic-ai",
+ "name": "Agentic AI",
+ "description": "AI agents, tool use, orchestration, multi-agent systems built on LLMs.",
+ "flagship_query": "\"agentic AI\"",
+ "query_volumes": [
+  {
+   "query": "\"agentic AI\"",
+   "total": 407
+  },
+  {
+   "query": "\"AI agent\" \"large language model\"",
+   "total": 5184
+  },
+  {
+   "query": "(\"tool calling\" OR \"function calling\") \"language model\"",
+   "total": 4294
+  },
+  {
+   "query": "\"multi-agent\" \"large language model\"",
+   "total": 7798
+  }
+ ],
+ "top_filers_sampled": [
+  {
+   "assignee": "Salesforce, Inc.",
+   "count": 46
+  },
+  {
+   "assignee": "Citibank, N.A.",
+   "count": 22
+  },
+  {
+   "assignee": "Stats Llc",
+   "count": 22
+  },
+  {
+   "assignee": "Eric L Pankey",
+   "count": 22
+  },
+  {
+   "assignee": "Oracle International Corporation",
+   "count": 17
+  },
+  {
+   "assignee": "Hytto Pte. Ltd",
+   "count": 14
+  },
+  {
+   "assignee": "Eric L. Pankey",
+   "count": 12
+  },
+  {
+   "assignee": "주식회사 Lg 경영개발원",
+   "count": 12
+  },
+  {
+   "assignee": "Pure Storage, Inc.",
+   "count": 12
+  },
+  {
+   "assignee": "Horizon 3 Ai, Inc.",
+   "count": 9
+  },
+  {
+   "assignee": "Evity Technologies, Inc.",
+   "count": 9
+  },
+  {
+   "assignee": "Epic Games, Inc.",
+   "count": 9
+  },
+  {
+   "assignee": "可达智灵(北京)科技有限公司",
+   "count": 9
+  },
+  {
+   "assignee": "RPM-One, Inc. dba Drive Health",
+   "count": 9
+  },
+  {
+   "assignee": "Aieconomy Llc",
+   "count": 9
+  }
+ ],
+ "filing_trend": null,
+ "fresh_filings": [
+  {
+   "publication_number": "KR20260121894A",
+   "title": "System and Method for Information Processing Control Using Semantic …",
+   "assignee": "주식회사 위키시큐리티",
+   "inventor": "홍진기",
+   "filing_date": "2026-07-24",
+   "publication_date": "2026-08-11",
+   "priority_date": "",
+   "snippet": "The present invention relates to a system and method for controlling the processing behavior of protected information in a distributed runtime environment combined with Agentic Artificial Intelligence (Agentic AI), Multi-Agent, Search Augmentation Generative (RAG), Tool Calling, and Model Context …",
+   "link": "https://patents.google.com/patent/KR20260121894A/en"
+  },
+  {
+   "publication_number": "WO2026172336A2",
+   "title": "Systems and methods for protected execution-finality control using two-instance …",
+   "assignee": "",
+   "inventor": "Sangam DAS",
+   "filing_date": "2026-07-06",
+   "publication_date": "2026-08-20",
+   "priority_date": "2025-12-09",
+   "snippet": "Industrial Use Applicability: The disclosed architecture is industrially applicable to agentic AI, MCP/tool connectors, LLMOps, RAG and vector-memory governance, AI safety infrastructure, Zero-Trust security, confidential computing, IAM/PAM, cloud-control-plane protection, DevSecOps and CI/CD …",
+   "link": "https://patents.google.com/patent/WO2026172336A2/en"
+  },
+  {
+   "publication_number": "AU2026906040A0",
+   "title": "Llm rag assistant based agentic ai-operated machine users training platform",
+   "assignee": "Kim, Jong Ho MR",
+   "inventor": "Jong Ho Kim",
+   "filing_date": "2026-07-03",
+   "publication_date": "2026-07-16",
+   "priority_date": "",
+   "snippet": "",
+   "link": "https://patents.google.com/patent/AU2026906040A0/en"
+  },
+  {
+   "publication_number": "WO2026172333A2",
+   "title": "Privacy preserving anti-harassment and spam-free communication for map-based …",
+   "assignee": "",
+   "inventor": "Sangam DAS",
+   "filing_date": "2026-07-01",
+   "publication_date": "2026-08-20",
+   "priority_date": "2025-08-17",
+   "snippet": "…  Shopping, Uber, Lyft, Airbnb, Booking.com, Expedia, Doordash, Instacart, Zocdoc, Thumbtack, Angi, and equivalent local business discovery, e-commerce, lead generation, agentic AI communication, and on-demand service systems operating on Android, iOS, or equivalent mobile or desktop platforms. A …",
+   "link": "https://patents.google.com/patent/WO2026172333A2/en"
+  },
+  {
+   "publication_number": "WO2026172334A2",
+   "title": "Sovereign ai execution finality: hardware-rooted national control to prevent …",
+   "assignee": "",
+   "inventor": "Sangam DAS",
+   "filing_date": "2026-07-01",
+   "publication_date": "2026-08-20",
+   "priority_date": "2025-08-17",
+   "snippet": "This disclosure addresses a core infrastructure problem for frontier and agentic AI systems: a model output, agentic decision, autonomous agent action, tool call, function call, command, memory write, data export, cross-border transmission, payment instruction, RF emission, satellite command, …",
+   "link": "https://patents.google.com/patent/WO2026172334A2/en"
+  },
+  {
+   "publication_number": "CN122616589A",
+   "title": "A technology for constructing intelligent agent frameworks for complex …",
+   "assignee": "上海孚典智能科技有限公司",
+   "inventor": "赵继胜",
+   "filing_date": "2026-06-23",
+   "publication_date": "2026-08-21",
+   "priority_date": "",
+   "snippet": "…  [1] AI Agents vs. Agentic AI: A Conceptual Taxonomy, Applications and Challenges, By Sapkota, Ranjan, Roumeliotis, Konstantinos, Karkee, Manoj 2025 [2] Machine Knowledge: Creation and Curation of Comprehensive Knowledge Bases, By Gerhard Weikum, Luna Dong, Simon Razniewski, Fabian Suchanek 2020",
+   "link": "https://patents.google.com/patent/CN122616589A/en"
+  },
+  {
+   "publication_number": "WO2026154461A2",
+   "title": "Preventing data purpose laundering and abuse of agentic ai tools: hardware- …",
+   "assignee": "Das Sangam",
+   "inventor": "Sangam DAS",
+   "filing_date": "2026-06-13",
+   "publication_date": "2026-07-23",
+   "priority_date": "2025-12-09",
+   "snippet": "Autonomous AI agents deployed in enterprise and high-risk environments — including ﬁnance, critical infrastructure, healthcare, and sovereign platforms — routinely execute irreversible actions such as fund transfers, record modiﬁcations, and network commands. Existing safeguards like alignment …",
+   "link": "https://patents.google.com/patent/WO2026154461A2/en"
+  },
+  {
+   "publication_number": "WO2026150383A2",
+   "title": "Systems and methods for preventing artificial-intelligence-generated …",
+   "assignee": "Das Sangam",
+   "inventor": "Sangam DAS",
+   "filing_date": "2026-06-07",
+   "publication_date": "2026-07-16",
+   "priority_date": "2025-12-09",
+   "snippet": "Disclosed are systems and methods for Agentic AI Security in Autonomous AI Agents, Agentic Workﬂows, and LLM Copilots. An AI-generated tool call, payment instruction, database update, data export, network command, customer communication, software deployment, or actuator command is treated as a …",
+   "link": "https://patents.google.com/patent/WO2026150383A2/en"
+  },
+  {
+   "publication_number": "CN122420964A",
+   "title": "Unmanned aerial vehicle cluster self-adaptive routing method, device and system …",
+   "assignee": "西安工业大学",
+   "inventor": "卢颖",
+   "filing_date": "2026-06-02",
+   "publication_date": "2026-07-17",
+   "priority_date": "2026-06-01",
+   "snippet": "The application introduces AGENTIC AI with advanced logic reasoning capability into the bottom routing protocol for the first time through 'size model layering decoupling', solves the bottleneck that static rules cannot cope with dynamic network environment, and realizes the crossing of the routing …",
+   "link": "https://patents.google.com/patent/CN122420964A/en"
+  },
+  {
+   "publication_number": "CN122577979A",
+   "title": "Satellite cloud-native network distributed intelligent container deployment …",
+   "assignee": "北京大学深圳研究生院",
+   "inventor": "宋令阳",
+   "filing_date": "2026-05-27",
+   "publication_date": "2026-08-14",
+   "priority_date": "2026-05-27",
+   "snippet": "In summary, the embodiment of the application provides a AGENTIC AI method for solving the deployment of a distributed intelligent container of a satellite cloud primary network, aiming at the characteristics of severe space-time variation, limited satellite-borne resources, unstable inter- …",
+   "link": "https://patents.google.com/patent/CN122577979A/en"
+  }
+ ]
+}
